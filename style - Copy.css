@@ -1,0 +1,89 @@
+html {
+    background-color: #f9f9fb;
+}
+.hero {
+    position: relative;
+    background-image: url(img/ph.webp);
+    background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    aspect-ratio: 9 / 16;
+ 
+}
+
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        position: relative;
+        background-image: url(img/desk.webp);
+        background-color: blue;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        aspect-ratio: 16 / 9;
+
+    }
+
+}
+
+
+
+.text {
+    text-align: center;
+
+}
+
+.development {
+    position: relative;
+    margin: 0 15vw 3vw 15vw;
+    min-height: 15vw;
+
+}
+.container {
+
+
+}
+
+.btn {
+
+}
+
+.keterangan {
+    font-size: 2vw;
+
+}
+
+h4 {
+    font-size: 3vw;
+}
+
+
+.story {
+    position: absolute;
+    background-image: url(img/test4.webp);
+    background-color: #f9f9fb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    aspect-ratio: 9 / 16;
+        @media only screen and (min-width: 768px) {
+            position: relative;
+            background-image: url(img/test.webp);
+            background-color: #f9f9fb;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+            aspect-ratio: 16 / 9;
+
+            .content {
+                position: absolute;
+                left: %;
+                top: 50%;
+
+            }
+        }
+    
+ 
+}
+
